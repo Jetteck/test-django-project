@@ -25,7 +25,7 @@ SECRET_KEY = '@4ioo1%(jqetuwuh8$fg50izh$qv(c-#&q&rt55)nf&(21mkht'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<ilya>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'jetteck.pythonanywhere.com']
 
 
 # Application definition
