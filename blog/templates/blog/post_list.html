@@ -3,7 +3,16 @@
         <title>Jetteck's test blog</title>
     </head>
     <body>
-        <p>A long time ago, in a galaxy far far away...</p>
-        <div> {{ posts }} </div>
+    	<div>
+    		<h1><a href="/">Jetteck's test blog</a></h1>
+		</div>
+
+		{% for post in posts %}
+    		<div>
+        		<p>published: {{ post.published_date }}</p>
+       		 	<h1><a href="">{{ post.title }}</a></h1>
+        		<p>{{ post.text|linebreaksbr }}</p>
+    		</div>
+		{% endfor %}
     </body>
 </html>
